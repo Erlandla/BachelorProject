@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Matches snapshot 1`] = `
+<div
+  className="bg-buttonDark border-4 border-buttonDark text-white cursor-pointer px-5 py-1 rounded-[45px] h-10 w-200px hover:bg-buttonHover hover:border-buttonHover"
+  data-testid="categoryButton"
+  onClick={[Function]}
+>
+  <p
+    className="whitespace-nowrap"
+    data-testid="categoryText"
+  >
+     
+    Oh snap!
+  </p>
+</div>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Matches snapshot 1`] = `
+<div>
+  <p
+    className="color-red items-center"
+  >
+    En feil oppstod: Error: Ugyldig telefonnummer
+  </p>
+</div>
+`;

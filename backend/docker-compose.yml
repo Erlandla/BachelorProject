@@ -1,0 +1,23 @@
+version: '3.10'
+services:
+  graphdb:
+    environment:
+      GDB_JAVA_OPTS: >-
+        -Xmx2g -Xms2g
+        -Dgraphdb.workbench.importDirectory=/opt/graphdb/home/graphdb-import
+        -Dgraphdb.workbench.cors.enable=true
+        -Denable-context-index=true
+        -Dentity-pool-implementation=transactional
+        -Dhealth.max.query.time.seconds=60
+        -Dgraphdb.append.request.id.headers=true
+        -Dreuse.vars.in.subselects=true
+    container_name: "dataDrivenMunicipalities"
+    build:
+      context: database
+      dockerfile: Dockerfile
+      args:
+        version: ${GRAPHDB_VERSION}
+
+    ports:
+      - "7200:7200"
+    command: '/opt/graphdb/dist/bin/importrdf preload -f -c /opt/graphdb/home/conf/TRDK1_GRAPHDB-config.ttl /opt/graphdb/home/ontology'

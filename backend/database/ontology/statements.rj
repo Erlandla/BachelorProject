@@ -1,0 +1,2839 @@
+{
+  "_:95f8462bb1a84f75876544f102925b1810" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [
+      {
+        "value" : "urn:absolute:ODA2.0#hasAccesibleData",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [
+      {
+        "value" : "_:95f8462bb1a84f75876544f102925b1811",
+        "type" : "bnode"
+      }
+    ]
+  },
+  "_:95f8462bb1a84f75876544f102925b1811" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [
+      {
+        "value" : "urn:absolute:ODA2.0#sameCategoryAs",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [
+      {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil",
+        "type" : "uri"
+      }
+    ]
+  },
+  "_:95f8462bb1a84f75876544f102925b1812" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [
+      {
+        "value" : "urn:absolute:ODA2.0#hasAccesibleData",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [
+      {
+        "value" : "_:95f8462bb1a84f75876544f102925b1813",
+        "type" : "bnode"
+      }
+    ]
+  },
+  "_:95f8462bb1a84f75876544f102925b1813" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [
+      {
+        "value" : "urn:absolute:ODA2.0#isAccesibleDataOf",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [
+      {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil",
+        "type" : "uri"
+      }
+    ]
+  },
+  "_:95f8462bb1a84f75876544f102925b1814" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [
+      {
+        "value" : "urn:absolute:ODA2.0#hasAccesibleData",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [
+      {
+        "value" : "_:95f8462bb1a84f75876544f102925b1815",
+        "type" : "bnode"
+      }
+    ]
+  },
+  "_:95f8462bb1a84f75876544f102925b1815" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [
+      {
+        "value" : "urn:absolute:ODA2.0#sameCategoryAs",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [
+      {
+        "value" : "_:95f8462bb1a84f75876544f102925b1816",
+        "type" : "bnode"
+      }
+    ]
+  },
+  "_:95f8462bb1a84f75876544f102925b1816" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [
+      {
+        "value" : "urn:absolute:ODA2.0#isAccesibleDataOf",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [
+      {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil",
+        "type" : "uri"
+      }
+    ]
+  },
+  "_:95f8462bb1a84f75876544f102925b1817" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [
+      {
+        "value" : "urn:absolute:ODA2.0#hasClearDataProduct",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [
+      {
+        "value" : "_:95f8462bb1a84f75876544f102925b1818",
+        "type" : "bnode"
+      }
+    ]
+  },
+  "_:95f8462bb1a84f75876544f102925b1818" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [
+      {
+        "value" : "urn:absolute:ODA2.0#sameCategoryAs",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [
+      {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil",
+        "type" : "uri"
+      }
+    ]
+  },
+  "_:95f8462bb1a84f75876544f102925b1819" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [
+      {
+        "value" : "urn:absolute:ODA2.0#hasClearDataProduct",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [
+      {
+        "value" : "_:95f8462bb1a84f75876544f102925b1820",
+        "type" : "bnode"
+      }
+    ]
+  },
+  "_:95f8462bb1a84f75876544f102925b1820" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [
+      {
+        "value" : "urn:absolute:ODA2.0#isDataProductOf",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [
+      {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil",
+        "type" : "uri"
+      }
+    ]
+  },
+  "_:95f8462bb1a84f75876544f102925b1821" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [
+      {
+        "value" : "urn:absolute:ODA2.0#hasClearDataProduct",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [
+      {
+        "value" : "_:95f8462bb1a84f75876544f102925b1822",
+        "type" : "bnode"
+      }
+    ]
+  },
+  "_:95f8462bb1a84f75876544f102925b1822" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [
+      {
+        "value" : "urn:absolute:ODA2.0#sameCategoryAs",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [
+      {
+        "value" : "_:95f8462bb1a84f75876544f102925b1823",
+        "type" : "bnode"
+      }
+    ]
+  },
+  "_:95f8462bb1a84f75876544f102925b1823" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [
+      {
+        "value" : "urn:absolute:ODA2.0#isDataProductOf",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [
+      {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil",
+        "type" : "uri"
+      }
+    ]
+  },
+  "_:95f8462bb1a84f75876544f102925b1824" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [
+      {
+        "value" : "urn:absolute:ODA2.0#hasSpecificProblem",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [
+      {
+        "value" : "_:95f8462bb1a84f75876544f102925b1825",
+        "type" : "bnode"
+      }
+    ]
+  },
+  "_:95f8462bb1a84f75876544f102925b1825" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [
+      {
+        "value" : "urn:absolute:ODA2.0#sameCategoryAs",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [
+      {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil",
+        "type" : "uri"
+      }
+    ]
+  },
+  "_:95f8462bb1a84f75876544f102925b1826" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [
+      {
+        "value" : "urn:absolute:ODA2.0#hasSpecificProblem",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [
+      {
+        "value" : "_:95f8462bb1a84f75876544f102925b1827",
+        "type" : "bnode"
+      }
+    ]
+  },
+  "_:95f8462bb1a84f75876544f102925b1827" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [
+      {
+        "value" : "urn:absolute:ODA2.0#isSpecificProblemOf",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [
+      {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil",
+        "type" : "uri"
+      }
+    ]
+  },
+  "_:95f8462bb1a84f75876544f102925b1828" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [
+      {
+        "value" : "urn:absolute:ODA2.0#hasSpecificProblem",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [
+      {
+        "value" : "_:95f8462bb1a84f75876544f102925b1829",
+        "type" : "bnode"
+      }
+    ]
+  },
+  "_:95f8462bb1a84f75876544f102925b1829" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [
+      {
+        "value" : "urn:absolute:ODA2.0#sameCategoryAs",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [
+      {
+        "value" : "_:95f8462bb1a84f75876544f102925b1830",
+        "type" : "bnode"
+      }
+    ]
+  },
+  "_:95f8462bb1a84f75876544f102925b1830" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [
+      {
+        "value" : "urn:absolute:ODA2.0#isSpecificProblemOf",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [
+      {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil",
+        "type" : "uri"
+      }
+    ]
+  },
+  "_:95f8462bb1a84f75876544f102925b1831" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [
+      {
+        "value" : "urn:absolute:ODA2.0#hasVendor",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [
+      {
+        "value" : "_:95f8462bb1a84f75876544f102925b1832",
+        "type" : "bnode"
+      }
+    ]
+  },
+  "_:95f8462bb1a84f75876544f102925b1832" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [
+      {
+        "value" : "urn:absolute:ODA2.0#isVendorOf",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [
+      {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil",
+        "type" : "uri"
+      }
+    ]
+  },
+  "_:95f8462bb1a84f75876544f102925b1833" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf" : [
+      {
+        "value" : "_:95f8462bb1a84f75876544f102925b1834",
+        "type" : "bnode"
+      }
+    ]
+  },
+  "_:95f8462bb1a84f75876544f102925b1834" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [
+      {
+        "value" : "_:95f8462bb1a84f75876544f102925b1836",
+        "type" : "bnode"
+      }
+    ]
+  },
+  "_:95f8462bb1a84f75876544f102925b1835" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#Restriction",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onClass" : [
+      {
+        "value" : "urn:absolute:ODA2.0#SpecificProblem",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty" : [
+      {
+        "value" : "urn:absolute:ODA2.0#hasSpecificProblem",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [
+      {
+        "value" : "1",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+      }
+    ]
+  },
+  "_:95f8462bb1a84f75876544f102925b1836" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : [
+      {
+        "value" : "_:95f8462bb1a84f75876544f102925b1835",
+        "type" : "bnode"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : [
+      {
+        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#Ontology",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionIRI" : [
+      {
+        "value" : "urn:absolute:1",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#AI" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#Tool",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#sameCategoryAs" : [
+      {
+        "value" : "urn:uuid:0f47e195-dc0d-4457-80b0-ffeb1fb0871c",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#AccesibleData" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [
+      {
+        "value" : "ved å bruke disse datasettene (fyll inn hvilke datasett du planlegger å bruke)",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#AvailableData" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [
+      {
+        "value" : "Repeated decisions made without access to all relevant information",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [
+      {
+        "value" : "urn:absolute:ODA2.0#SpecificProblem",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#BlueGarden" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#Vendor",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#Business/ThirdSectorData" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [
+      {
+        "value" : "urn:absolute:ODA2.0#AccesibleData",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#CD1" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#Business/ThirdSectorData",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#CitizenData" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [
+      {
+        "value" : "urn:absolute:ODA2.0#AccesibleData",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#ClearDataProduct" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [
+      {
+        "value" : "Clear Data Product - Hvis vi kunne se/ hvis vi visste (fyll inn \"dataproduktet, hvordan du ønsker at faktagrunnlaget skal vises frem, f.eks. kart eller dashboard)",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#DefinedAction" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [
+      {
+        "value" : "Defined Action - ville vi (fyll inn den nye aktiviteten du \nønsker å implementere)",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#Faktura" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#Sector",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#Forvaltning" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#Sector",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#Graph" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#Resource",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#sameCategoryAs" : [
+      {
+        "value" : "urn:uuid:20ba9949-2a1f-4588-b645-eb455aa04e9f",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:uuid:65989e37-4ef8-4fd0-b67f-f69fe90299fd",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#ID1" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#IT1" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#IdentifyingTarget",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#sameCategoryAs" : [
+      {
+        "value" : "urn:absolute:ODA2.0#IT2",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#IT3",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#IT2" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#IdentifyingTarget",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#IT3" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#IdentifyingTarget",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#IdentifyingTarget" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [
+      {
+        "value" : "Targets are difficult to identify within a broader population",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [
+      {
+        "value" : "urn:absolute:ODA2.0#SpecificProblem",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#Jespbarf" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#User",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#creatorOf" : [
+      {
+        "value" : "urn:absolute:ODA2.0#P1",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#Lisens" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#OD1" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#OpenData",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#ODAProblem" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [
+      {
+        "value" : "A problem in one/several municipalities that is defined using the ODA method",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentClass" : [
+      {
+        "value" : "_:95f8462bb1a84f75876544f102925b1833",
+        "type" : "bnode"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#ODATitle" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [
+      {
+        "value" : "http://www.w3.org/2001/XMLSchema#string",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#ODAprogress" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [
+      {
+        "value" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#OSP" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#OtherSpecificProblem",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#sameCategoryAs" : [
+      {
+        "value" : "urn:uuid:a33998e9-78b4-4711-8ac6-b97d34fd1271",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#OpenData" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [
+      {
+        "value" : "urn:absolute:ODA2.0#AccesibleData",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#OtherData" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [
+      {
+        "value" : "urn:absolute:ODA2.0#AccesibleData",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#OtherSpecificProblem" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [
+      {
+        "value" : "Specified problems which do not fall into any of the other categories",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [
+      {
+        "value" : "urn:absolute:ODA2.0#SpecificProblem",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#OutdatedData" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [
+      {
+        "value" : "Assets are scheduled or deployed without input of latest service data",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [
+      {
+        "value" : "urn:absolute:ODA2.0#SpecificProblem",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#P1" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#hasAccesibleData" : [
+      {
+        "value" : "urn:absolute:ODA2.0#OD1",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#hasClearDataProduct" : [
+      {
+        "value" : "urn:absolute:ODA2.0#Graph",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#hasSpecificProblem" : [
+      {
+        "value" : "urn:absolute:ODA2.0#IT1",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#hasVendor" : [
+      {
+        "value" : "urn:absolute:ODA2.0#Visma",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#P2" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#hasSpecificProblem" : [
+      {
+        "value" : "urn:absolute:ODA2.0#IT2",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#hasVendor" : [
+      {
+        "value" : "urn:absolute:ODA2.0#Visma",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#P3" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#hasAccesibleData" : [
+      {
+        "value" : "urn:absolute:ODA2.0#OD1",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#hasSpecificProblem" : [
+      {
+        "value" : "urn:absolute:ODA2.0#OSP",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#hasVendor" : [
+      {
+        "value" : "urn:absolute:ODA2.0#Vigilo",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#P4" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#hasClearDataProduct" : [
+      {
+        "value" : "urn:absolute:ODA2.0#Graph",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#Prioritization" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [
+      {
+        "value" : "Services do not categorise high-priority cases early",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [
+      {
+        "value" : "urn:absolute:ODA2.0#SpecificProblem",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#PublicSectorData" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [
+      {
+        "value" : "urn:absolute:ODA2.0#AccesibleData",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#ReactiveServices" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [
+      {
+        "value" : "Resources are overly focused on reactive services",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [
+      {
+        "value" : "urn:absolute:ODA2.0#SpecificProblem",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#Resource" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [
+      {
+        "value" : "Lagring/Visualisering av dataen, f.eks. i form av en tabell, graf, kart, osv...",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [
+      {
+        "value" : "urn:absolute:ODA2.0#ClearDataProduct",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#Sector" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#Skole" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#Sector",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#SpecificProblem" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [
+      {
+        "value" : "Specific Problem - Vårt spesifikke problem er at: (fyll inn spesifikk problemformulering)",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#SylviuPlath" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#User",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#creatorOf" : [
+      {
+        "value" : "urn:absolute:ODA2.0#P3",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#subscribedTo" : [
+      {
+        "value" : "urn:absolute:ODA2.0#P1",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#Tool" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [
+      {
+        "value" : "Et mer omstendelig dataprodukt, som innebærer mer enn kun visualisering av data.\nf.eks.\n\"Hvis vi kunne se og legge til rette for god og sikker innbyggerdialog med for eksempel helsestasjon og skolehelsetjenesten.\"\n\"Hvis vi kunne se og legge til rette for god og sikker innbyggerdialog med for eksempel helsestasjon og skolehelsetjenesten\"\n\"Hvis vi kunne prediktere ressursbehovet innenfor ulike området, så ville vi vært bedre istand til å planlegge\"",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [
+      {
+        "value" : "urn:absolute:ODA2.0#ClearDataProduct",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#TrulsNylander" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#User",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#subscribedTo" : [
+      {
+        "value" : "urn:absolute:ODA2.0#P1",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#P3",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#User" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [
+      {
+        "value" : "En bruker\nhar dataproperties:\nuserAffiliation\nuserMail\nuserPhoneNumber\nisAdmin",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#Vendor" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#Class",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [
+      {
+        "value" : "Leverandør av dataproduktet",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#Vigilo" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#Vendor",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#Visma" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#Vendor",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#accesibleDataDescription" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [
+      {
+        "value" : "urn:absolute:ODA2.0#AccesibleData",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [
+      {
+        "value" : "http://www.w3.org/2001/XMLSchema#string",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#approved" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [
+      {
+        "value" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#createdBy" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [
+      {
+        "value" : "urn:absolute:ODA2.0#User",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf" : [
+      {
+        "value" : "urn:absolute:ODA2.0#creatorOf",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#creatorOf" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [
+      {
+        "value" : "urn:absolute:ODA2.0#User",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#dataProductDescription" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [
+      {
+        "value" : "http://www.w3.org/2001/XMLSchema#string",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#definedActionDescription" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [
+      {
+        "value" : "urn:absolute:ODA2.0#DefinedAction",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [
+      {
+        "value" : "http://www.w3.org/2001/XMLSchema#string",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#hasAccesibleData" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [
+      {
+        "value" : "urn:absolute:ODA2.0#AccesibleData",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf" : [
+      {
+        "value" : "urn:absolute:ODA2.0#isAccesibleDataOf",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#hasClearDataProduct" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [
+      {
+        "value" : "urn:absolute:ODA2.0#ClearDataProduct",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf" : [
+      {
+        "value" : "urn:absolute:ODA2.0#isDataProductOf",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#hasDefinedAction" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [
+      {
+        "value" : "urn:absolute:ODA2.0#DefinedAction",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf" : [
+      {
+        "value" : "urn:absolute:ODA2.0#isDefineActionOf",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#hasSector" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#AsymmetricProperty",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.w3.org/2002/07/owl#IrreflexiveProperty",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [
+      {
+        "value" : "urn:absolute:ODA2.0#Sector",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf" : [
+      {
+        "value" : "urn:absolute:ODA2.0#isSectorOf",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#hasSpecificProblem" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#AsymmetricProperty",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.w3.org/2002/07/owl#IrreflexiveProperty",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [
+      {
+        "value" : "urn:absolute:ODA2.0#SpecificProblem",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf" : [
+      {
+        "value" : "urn:absolute:ODA2.0#isSpecificProblemOf",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#hasSubscriber" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [
+      {
+        "value" : "urn:absolute:ODA2.0#User",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf" : [
+      {
+        "value" : "urn:absolute:ODA2.0#subscribedTo",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#hasVendor" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#AsymmetricProperty",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.w3.org/2002/07/owl#IrreflexiveProperty",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [
+      {
+        "value" : "urn:absolute:ODA2.0#Vendor",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf" : [
+      {
+        "value" : "urn:absolute:ODA2.0#isVendorOf",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#isAccesibleDataOf" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [
+      {
+        "value" : "urn:absolute:ODA2.0#AccesibleData",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#isAdmin" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [
+      {
+        "value" : "urn:absolute:ODA2.0#User",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [
+      {
+        "value" : "http://www.w3.org/2001/XMLSchema#boolean",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#isDataProductOf" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [
+      {
+        "value" : "urn:absolute:ODA2.0#ClearDataProduct",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#isDefineActionOf" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#AsymmetricProperty",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.w3.org/2002/07/owl#IrreflexiveProperty",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [
+      {
+        "value" : "urn:absolute:ODA2.0#DefinedAction",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#isSectorOf" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#AsymmetricProperty",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.w3.org/2002/07/owl#IrreflexiveProperty",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [
+      {
+        "value" : "urn:absolute:ODA2.0#Sector",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#isSpecificProblemOf" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#AsymmetricProperty",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.w3.org/2002/07/owl#IrreflexiveProperty",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [
+      {
+        "value" : "urn:absolute:ODA2.0#SpecificProblem",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#isVendorOf" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#AsymmetricProperty",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.w3.org/2002/07/owl#IrreflexiveProperty",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [
+      {
+        "value" : "urn:absolute:ODA2.0#Vendor",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#relatedAD" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [
+      {
+        "value" : "urn:absolute:ODA2.0#AccesibleData",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#propertyChainAxiom" : [
+      {
+        "value" : "_:95f8462bb1a84f75876544f102925b1810",
+        "type" : "bnode"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#relatedAD_ODAProblem" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#propertyChainAxiom" : [
+      {
+        "value" : "_:95f8462bb1a84f75876544f102925b1812",
+        "type" : "bnode"
+      },
+      {
+        "value" : "_:95f8462bb1a84f75876544f102925b1814",
+        "type" : "bnode"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#relatedDP" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [
+      {
+        "value" : "urn:absolute:ODA2.0#ClearDataProduct",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#propertyChainAxiom" : [
+      {
+        "value" : "_:95f8462bb1a84f75876544f102925b1817",
+        "type" : "bnode"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#relatedDP_ODAProblem" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#propertyChainAxiom" : [
+      {
+        "value" : "_:95f8462bb1a84f75876544f102925b1819",
+        "type" : "bnode"
+      },
+      {
+        "value" : "_:95f8462bb1a84f75876544f102925b1821",
+        "type" : "bnode"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#relatedSP" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [
+      {
+        "value" : "urn:absolute:ODA2.0#SpecificProblem",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#propertyChainAxiom" : [
+      {
+        "value" : "_:95f8462bb1a84f75876544f102925b1824",
+        "type" : "bnode"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#relatedSP_ODAProblem" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#propertyChainAxiom" : [
+      {
+        "value" : "_:95f8462bb1a84f75876544f102925b1826",
+        "type" : "bnode"
+      },
+      {
+        "value" : "_:95f8462bb1a84f75876544f102925b1828",
+        "type" : "bnode"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#relatedVendor_ODAProblem" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#propertyChainAxiom" : [
+      {
+        "value" : "_:95f8462bb1a84f75876544f102925b1831",
+        "type" : "bnode"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#sameCategoryAs" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.w3.org/2002/07/owl#SymmetricProperty",
+        "type" : "uri"
+      },
+      {
+        "value" : "http://www.w3.org/2002/07/owl#TransitiveProperty",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#specificProblemDescription" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [
+      {
+        "value" : "urn:absolute:ODA2.0#SpecificProblem",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [
+      {
+        "value" : "http://www.w3.org/2001/XMLSchema#string",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#subscribedTo" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [
+      {
+        "value" : "urn:absolute:ODA2.0#User",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#userAffiliation" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [
+      {
+        "value" : "urn:absolute:ODA2.0#User",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [
+      {
+        "value" : "http://www.w3.org/2001/XMLSchema#string",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#userMail" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [
+      {
+        "value" : "urn:absolute:ODA2.0#User",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [
+      {
+        "value" : "http://www.w3.org/2001/XMLSchema#string",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#userPhoneNumber" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [
+      {
+        "value" : "urn:absolute:ODA2.0#User",
+        "type" : "uri"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range" : [
+      {
+        "value" : "http://www.w3.org/2001/XMLSchema#int",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:absolute:ODA2.0#Økonomi" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#Sector",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:uuid:0f47e195-dc0d-4457-80b0-ffeb1fb0871c" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#ClearDataProduct",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#Tool",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#dataProductDescription" : [
+      {
+        "value" : "If we had a 'master' organizational structure for all the systems that TK uses in a table format, would make possible more advanced analysis.",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  "urn:uuid:0fffaab5-5e25-4ca3-b221-5101c08a5629" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#ODATitle" : [
+      {
+        "value" : "Lønnsoppgjør",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "urn:absolute:ODA2.0#ODAprogress" : [
+      {
+        "value" : "newChallenge",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "urn:absolute:ODA2.0#approved" : [
+      {
+        "value" : "true",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean"
+      }
+    ],
+    "urn:absolute:ODA2.0#createdBy" : [
+      {
+        "value" : "urn:uuid:bb0dd023-9a61-4364-981b-1728ecae191a",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#hasAccesibleData" : [
+      {
+        "value" : "urn:uuid:222a19d6-fd39-4dc4-b040-4bf59f8aebde",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#hasClearDataProduct" : [
+      {
+        "value" : "urn:uuid:65989e37-4ef8-4fd0-b67f-f69fe90299fd",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#hasDefinedAction" : [
+      {
+        "value" : "urn:uuid:b0c047ff-89aa-47b8-a38e-29ede1f0f8ca",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#hasSpecificProblem" : [
+      {
+        "value" : "urn:uuid:f819c522-b8ca-4df8-a702-ac835069051c",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#hasVendor" : [
+      {
+        "value" : "urn:absolute:ODA2.0#BlueGarden",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:uuid:129f11a0-f45e-478e-9d6d-586e8b05ac95" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "urn:absolute:ODA2.0#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#hasDefinedAction",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#definedActionDescription" : [
+      {
+        "value" : "we will manage to provide better analysis (better quality), faster without many manual adjustments that risk the quality of our deliveries. Also will give the possibility to automate them without manual control.",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  "urn:uuid:181f8b5f-7958-4c83-9a0d-81bdc051f75f" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#User",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#isAdmin" : [
+      {
+        "value" : "true",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean"
+      }
+    ],
+    "urn:absolute:ODA2.0#userAffiliation" : [
+      {
+        "value" : "Trondheim Kommune",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "urn:absolute:ODA2.0#userMail" : [
+      {
+        "value" : "admin@trondheim.kommune.no",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "urn:absolute:ODA2.0#userPassword" : [
+      {
+        "value" : "admin",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "urn:absolute:ODA2.0#userPhoneNumber" : [
+      {
+        "value" : "12345678",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int"
+      }
+    ]
+  },
+  "urn:uuid:20ba5590-a0a5-44cf-bc1a-d1ed9553b7b1" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#ODATitle" : [
+      {
+        "value" : "Organiseringsstruktur",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "urn:absolute:ODA2.0#ODAprogress" : [
+      {
+        "value" : "newChallenge",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "urn:absolute:ODA2.0#approved" : [
+      {
+        "value" : "true",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean"
+      }
+    ],
+    "urn:absolute:ODA2.0#createdBy" : [
+      {
+        "value" : "urn:uuid:bb0dd023-9a61-4364-981b-1728ecae191a",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#hasAccesibleData" : [
+      {
+        "value" : "urn:uuid:2891fa4f-1792-4129-ad9d-87ffb8fc41e7",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#hasClearDataProduct" : [
+      {
+        "value" : "urn:uuid:0f47e195-dc0d-4457-80b0-ffeb1fb0871c",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#hasDefinedAction" : [
+      {
+        "value" : "urn:uuid:129f11a0-f45e-478e-9d6d-586e8b05ac95",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#hasSpecificProblem" : [
+      {
+        "value" : "urn:uuid:a33998e9-78b4-4711-8ac6-b97d34fd1271",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#hasVendor" : [
+      {
+        "value" : "urn:absolute:ODA2.0#BlueGarden",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:uuid:20ba9949-2a1f-4588-b645-eb455aa04e9f" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#ClearDataProduct",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#Resource",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#dataProductDescription" : [
+      {
+        "value" : "if we had the correct information for all the active 'fast' employees that worked for TK pr 30.04 of each year and external information like pensjonssatser etc in a table format.",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "urn:absolute:ODA2.0#sameCategoryAs" : [
+      {
+        "value" : "urn:uuid:65989e37-4ef8-4fd0-b67f-f69fe90299fd",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:uuid:222a19d6-fd39-4dc4-b040-4bf59f8aebde" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#AccesibleData",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#PublicSectorData",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#accesibleDataDescription" : [
+      {
+        "value" : "By using different datasets from different systems: ex Bluegarden - Multi (HR system), Lift (economical system), and other type of data, like active 'fast' employees pr. 30.04, their lønnsutvikling, their Fagforening, tillegg pr. 30.04, Pensjonssatser, satser, Sentrale årslønnstillegg, Kompensasjonsgrad, organisasjonssturktur, Kappitel",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "urn:absolute:ODA2.0#sameCategoryAs" : [
+      {
+        "value" : "urn:uuid:2891fa4f-1792-4129-ad9d-87ffb8fc41e7",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:uuid:22ebcbfa-2abc-4018-a5e5-d5d206f2bea4" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#ClearDataProduct",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#Tool",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#dataProductDescription" : [
+      {
+        "value" : "Hvis vi kunne se hvilke lisenser som ikke er i bruk og synliggjøre kostnadene som tabell",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "urn:absolute:ODA2.0#sameCategoryAs" : [
+      {
+        "value" : "urn:uuid:0f47e195-dc0d-4457-80b0-ffeb1fb0871c",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:uuid:2891fa4f-1792-4129-ad9d-87ffb8fc41e7" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#AccesibleData",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#PublicSectorData",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#accesibleDataDescription" : [
+      {
+        "value" : "By using and combining the organisazional structure from all the systems TK uses. A new master organisation structure needs to be created and updated automatically every time a change occurs (a new unit is created, merged or closed down).",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  "urn:uuid:2bdea7f4-cd51-4827-8067-c01376cb0caa" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#ODATitle" : [
+      {
+        "value" : "Lønnsoppgjør",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "urn:absolute:ODA2.0#ODAprogress" : [
+      {
+        "value" : "newChallenge",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "urn:absolute:ODA2.0#approved" : [
+      {
+        "value" : "true",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean"
+      }
+    ],
+    "urn:absolute:ODA2.0#createdBy" : [
+      {
+        "value" : "urn:uuid:bb0dd023-9a61-4364-981b-1728ecae191a",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#hasAccesibleData" : [
+      {
+        "value" : "urn:uuid:eddbd1cb-3654-4d5a-9cfe-2864c4ea9938",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#hasClearDataProduct" : [
+      {
+        "value" : "urn:uuid:20ba9949-2a1f-4588-b645-eb455aa04e9f",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#hasDefinedAction" : [
+      {
+        "value" : "urn:uuid:a41da2e0-574e-418e-8d63-5090f3780eb8",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#hasSpecificProblem" : [
+      {
+        "value" : "urn:uuid:2ee23dfc-9e67-4f38-a3dd-834deaa08233",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#hasVendor" : [
+      {
+        "value" : "urn:absolute:ODA2.0#BlueGarden",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:uuid:2ee23dfc-9e67-4f38-a3dd-834deaa08233" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#AvailableData",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#SpecificProblem",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#sameCategoryAs" : [
+      {
+        "value" : "urn:uuid:f819c522-b8ca-4df8-a702-ac835069051c",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#specificProblemDescription" : [
+      {
+        "value" : "Our problem is that we do not know how many money TK pays in 'lønnsoppgjør' every year.",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  "urn:uuid:30364e17-ddd3-4e45-9f18-2ebe25e71b79" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "urn:absolute:ODA2.0#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#hasDefinedAction",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#definedActionDescription" : [
+      {
+        "value" : "ville vi frigjøre lisenser vi allerede har betalt for og som kan gjenbrukes av andre, og bevisstgjøre enhetsledere på kostnaden ved lisenser",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  "urn:uuid:387e99e2-df6a-49bb-92dd-31dad2036acc" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#AvailableData",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#SpecificProblem",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#sameCategoryAs" : [
+      {
+        "value" : "urn:uuid:2ee23dfc-9e67-4f38-a3dd-834deaa08233",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:uuid:f819c522-b8ca-4df8-a702-ac835069051c",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#specificProblemDescription" : [
+      {
+        "value" : "Vårt problem er at det er mange lisenser som ikke brukes, men som likevel koster penger for enhetene",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  "urn:uuid:3e99ca69-4413-45b5-9b16-19553f3ae51a" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#AccesibleData",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#PublicSectorData",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#accesibleDataDescription" : [
+      {
+        "value" : "ved å bruke rapporter på kostnader, liste med lisenser og liste over reell bruk av programmet",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "urn:absolute:ODA2.0#sameCategoryAs" : [
+      {
+        "value" : "urn:uuid:222a19d6-fd39-4dc4-b040-4bf59f8aebde",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:uuid:2891fa4f-1792-4129-ad9d-87ffb8fc41e7",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:uuid:eddbd1cb-3654-4d5a-9cfe-2864c4ea9938",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:uuid:65989e37-4ef8-4fd0-b67f-f69fe90299fd" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#ClearDataProduct",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#Resource",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#dataProductDescription" : [
+      {
+        "value" : "if we had the correct information for all the active 'fast' employees that worked for TK pr 30.04 of each year and external information like pensjonssatser etc in a table format.",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  "urn:uuid:a33998e9-78b4-4711-8ac6-b97d34fd1271" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#OtherSpecificProblem",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#SpecificProblem",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#specificProblemDescription" : [
+      {
+        "value" : "Our problem is that we do not have a 'master' organizational structure. Each system has its own organizational structure. For example in bluegarden (HR) system there are ansvars that do not exist in Lift (economical system). Every time we want to make a more advanced analysis (that requires data from different systems) a lot manual pre-processing is done beforehand in order to make the correct connections between the differen systems.",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  "urn:uuid:a41da2e0-574e-418e-8d63-5090f3780eb8" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "urn:absolute:ODA2.0#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#hasDefinedAction",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#definedActionDescription" : [
+      {
+        "value" : "we will get the correct amount of  'lønnsoppgjør', each unit will get the correct compensation from TK. Lønnsteam will spent less time on manual controls and ØT will be able to provide better analysis /management data to our leaders / politicians.",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  "urn:uuid:b0c047ff-89aa-47b8-a38e-29ede1f0f8ca" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "urn:absolute:ODA2.0#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#hasDefinedAction",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#definedActionDescription" : [
+      {
+        "value" : "we will manage to provide the correct salary to each employee working for TK.  Lønnsteam will spent less time on manual controls & corrections.",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  "urn:uuid:bb0dd023-9a61-4364-981b-1728ecae191a" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#User",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#isAdmin" : [
+      {
+        "value" : "false",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean"
+      }
+    ],
+    "urn:absolute:ODA2.0#userAffiliation" : [
+      {
+        "value" : "Trondheim kommune",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "urn:absolute:ODA2.0#userMail" : [
+      {
+        "value" : "bruker@trondheim.kommune.no",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "urn:absolute:ODA2.0#userPassword" : [
+      {
+        "value" : "bruker",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "urn:absolute:ODA2.0#userPhoneNumber" : [
+      {
+        "value" : "12345678",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int"
+      }
+    ]
+  },
+  "urn:uuid:e427deba-2be9-4618-bae2-4812ddaa39c7" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#ODAProblem",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#ODATitle" : [
+      {
+        "value" : "Lisensoversikt",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "urn:absolute:ODA2.0#ODAprogress" : [
+      {
+        "value" : "inProcess",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "urn:absolute:ODA2.0#approved" : [
+      {
+        "value" : "true",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean"
+      }
+    ],
+    "urn:absolute:ODA2.0#createdBy" : [
+      {
+        "value" : "urn:uuid:bb0dd023-9a61-4364-981b-1728ecae191a",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#hasAccesibleData" : [
+      {
+        "value" : "urn:uuid:3e99ca69-4413-45b5-9b16-19553f3ae51a",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#hasClearDataProduct" : [
+      {
+        "value" : "urn:uuid:22ebcbfa-2abc-4018-a5e5-d5d206f2bea4",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#hasDefinedAction" : [
+      {
+        "value" : "urn:uuid:30364e17-ddd3-4e45-9f18-2ebe25e71b79",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#hasSpecificProblem" : [
+      {
+        "value" : "urn:uuid:387e99e2-df6a-49bb-92dd-31dad2036acc",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#hasVendor" : [
+      {
+        "value" : "urn:absolute:ODA2.0#BlueGarden",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:uuid:eddbd1cb-3654-4d5a-9cfe-2864c4ea9938" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#AccesibleData",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#PublicSectorData",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#accesibleDataDescription" : [
+      {
+        "value" : "By using different datasets from different systems: ex Bluegarden - Multi (HR system), Lift (economical system), and other type of data, like active 'fast' employees pr. 30.04, their lønnsutvikling, their Fagforening, tillegg pr. 30.04,Pensjonssatser, satser, Sentrale årslønnstillegg, Kompensasjonsgrad, organisasjonssturktur, Kappitel",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "urn:absolute:ODA2.0#sameCategoryAs" : [
+      {
+        "value" : "urn:uuid:222a19d6-fd39-4dc4-b040-4bf59f8aebde",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:uuid:2891fa4f-1792-4129-ad9d-87ffb8fc41e7",
+        "type" : "uri"
+      }
+    ]
+  },
+  "urn:uuid:f2aacd84-34b5-4753-b1b8-6e77250fef89" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#User",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#isAdmin" : [
+      {
+        "value" : "false",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#boolean"
+      }
+    ],
+    "urn:absolute:ODA2.0#userAffiliation" : [
+      {
+        "value" : "Malvik kommune",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "urn:absolute:ODA2.0#userMail" : [
+      {
+        "value" : "bruker@malvik.kommune.no",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "urn:absolute:ODA2.0#userPassword" : [
+      {
+        "value" : "bruker",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "urn:absolute:ODA2.0#userPhoneNumber" : [
+      {
+        "value" : "12345678",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#int"
+      }
+    ]
+  },
+  "urn:uuid:f819c522-b8ca-4df8-a702-ac835069051c" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [
+      {
+        "value" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#AvailableData",
+        "type" : "uri"
+      },
+      {
+        "value" : "urn:absolute:ODA2.0#SpecificProblem",
+        "type" : "uri"
+      }
+    ],
+    "urn:absolute:ODA2.0#specificProblemDescription" : [
+      {
+        "value" : "Our problem is that we do not know the 'lønnsoppjør' is correct for each employee in TK, maybe some people (stillingkategories) do not get it or get wrong amount.",
+        "type" : "literal",
+        "datatype" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  }
+}

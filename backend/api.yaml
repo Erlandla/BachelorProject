@@ -1,0 +1,459 @@
+openapi: 3.0.3
+info:
+  title: Graph Nesta - OpenAPI 3.0
+  description: |-
+    Simple API describing the different endpoints for the graph nesta backend
+  version: 1.0.11
+externalDocs:
+  description: Find out more about Swagger
+  url: http://swagger.io
+servers:
+  - url: http://localhost:8080/
+tags:
+  - name: OdaProblem
+    description: All endpoitns related to ODA problems
+  - name: User
+    description: Endpoints related to users
+  - name: ontology
+    description: General API endpoints
+paths:
+  /odaProblem:
+    get:
+      tags:
+        - OdaProblem
+      summary: Returns a list of odaProblems
+      description: Returns a list of OdaProblems based on different parameters passed in
+      parameters:
+        - name: limit
+          in: query
+          required: true
+          description: amount of oda problems to be returned
+          schema:
+            type: number
+        - name: offset
+          in: query
+          required: true
+          description: Offset
+          schema:
+            type: number
+        - name: searchstring
+          in: query
+          required: true
+          description: Pass in empty string to get all results
+          schema:
+            type: string
+        - name: categry
+          in: query
+          required: true
+          description: Pass in empty string to get all results
+          schema:
+            type: string
+        - name: email
+          in: query
+          required: false
+          description: Pass in email if you want to get oda problems related to a user
+          schema:
+            type: string
+        - name: relation
+          in: query
+          required: false
+          description: Relation of email to problems. 0 means user created problems, 1 means user subscribed to problem
+          schema:
+            type: number
+        - name: approved
+          in: query
+          required: false
+          description: Return problems that are approved or not
+          schema:
+            type: boolean
+        - name: filter
+          in: query
+          required: false
+          description: 0 - newChallenge 1 - started 2 - solved
+          schema:
+            type: number
+      responses:
+        '200':
+          description: Success
+    post:
+      tags:
+        - OdaProblem
+      summary: Add a new ODA problem
+      description: Add new ODA problem. will be unapproved
+      parameters:
+        - name: title
+          in: query
+          required: true
+          description: title of oda problem
+          schema:
+            type: string
+        - name: specificProblem
+          in: query
+          required: true
+          description: specific problem string
+          schema:
+            type: string
+        - name: clearDataProduct
+          in: query
+          required: true
+          description: clear data product string
+          schema:
+            type: string
+        - name: accessibleData
+          in: query
+          required: true
+          description: accessibleDataString
+          schema:
+            type: string
+        - name: supplier
+          in: query
+          required: true
+          description: data supplier, e.g. Visma or Bluegarden
+          schema:
+            type: string
+        - name: userMail
+          in: query
+          required: true
+          description: email of user that posted the problem
+          schema:
+            type: string
+        - name: status
+          in: query
+          required: true
+          description: Current state of problem
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Success
+    put:
+      tags:
+        - OdaProblem
+      summary: Update oda problem
+      description: Update oda problem
+      parameters:
+        - name: odaProblem
+          in: query
+          required: true
+          description: equals odaProblem.id which is returned from the get method
+          schema:
+            type: string
+        - name: specificProblem
+          in: query
+          required: true
+          description: specific problem string
+          schema:
+            type: string
+        - name: clearDataProduct
+          in: query
+          required: true
+          description: clear data product string
+          schema:
+            type: string
+        - name: accessibleData
+          in: query
+          required: true
+          description: accessibleDataString
+          schema:
+            type: string
+        - name: supplier
+          in: query
+          required: true
+          description: data supplier, e.g. Visma or Bluegarden
+          schema:
+            type: string
+        - name: userMail
+          in: query
+          required: true
+          description: email of user that posted the problem
+          schema:
+            type: string
+        - name: status
+          in: query
+          required: true
+          description: Current state of problem
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Success
+    delete:
+      tags:
+        - OdaProblem
+      summary: Delete an oda problem
+      description: Delete an oda problem and all its connections
+      parameters:
+        - name: odaProblem
+          in: query
+          required: true
+          description: equals odaProblem.id which is returned from the get method
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Success
+  /odaProblem/GetODAProblemsAdminInfo:
+    get:
+      tags:
+        - OdaProblem
+      summary: List of different statistics
+      description: Some central numbers about oda problems stored in
+      parameters:
+        - name: limit
+          in: query
+          required: true
+          description: amount of oda problems to be returned
+          schema:
+            type: number
+      responses:
+        '200':
+          description: Success
+  /odaProblem/AddCategories:
+    get:
+      tags:
+        - OdaProblem
+      summary: Add categories to oda problem
+      description: Add categories to three first points of oda problem
+      parameters:
+        - name: specProblem
+          in: query
+          required: true
+          description: Category of specific problem
+          schema:
+            type: string
+        - name: dataProduct
+          in: query
+          required: true
+          description: Category of data product
+          schema:
+            type: string
+        - name: accessibleData
+          in: query
+          required: true
+          description: category of accessible data
+          schema:
+            type: string
+        - name: id
+          in: query
+          required: true
+          description: id of oda problem
+          schema:
+            type: number
+        - name: approved
+          in: query
+          required: true
+          description: whether oda problem should be approved or not
+          schema:
+            type: boolean
+      responses:
+        '200':
+          description: Success
+  /odaProblem/GetSubscribers:
+    get:
+      tags:
+        - OdaProblem
+      summary: Get All subscribers of an ODA problem
+      description: Delete an oda problem and all its connections
+      parameters:
+        - name: odaProblem
+          in: query
+          required: true
+          description: equals odaProblem.id which is returned from the get method
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Success
+  /user/AddUser:
+    post:
+      tags:
+        - User
+      summary: Add new user
+      description: Add new user to database
+      parameters:
+        - name: phone
+          in: query
+          required: true
+          description: phone number (without country code)
+          schema:
+            type: string
+        - name: email
+          in: query
+          required: true
+          description: user email
+          schema:
+            type: string
+        - name: affiliation
+          in: query
+          required: true
+          description: user affiliation (eg Trondheim Municipality)
+          schema:
+            type: string
+        - name: password
+          in: query
+          required: true
+          description: password
+          schema:
+            type: string
+        - name: admin
+          in: query
+          required: true
+          description: user type admin or normal user
+          schema:
+            type: boolean
+      responses:
+        '200':
+          description: Success
+  /user/FindUser:
+    get:
+      tags:
+        - User
+      summary: Checks if user exists
+      description: Checks if user exists based on email and password. Acts as simple login check
+      parameters:
+        - name: email
+          in: query
+          required: true
+          description: user email
+          schema:
+            type: string
+        - name: password
+          in: query
+          required: true
+          description: user password
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Success
+  /user/SetAdmin:
+    put:
+      tags:
+        - User
+      summary: sets or removes user as admin
+      description: add or remove status as admin of user
+      parameters:
+        - name: email
+          in: query
+          required: true
+          description: user email
+          schema:
+            type: string
+        - name: setAdmin
+          in: query
+          required: true
+          description: Decide whether to set or remove admin
+          schema:
+            type: boolean
+      responses:
+        '200':
+          description: Success
+  /user/IsSubscribed:
+    get:
+      tags:
+        - User
+      summary: Check is user is subscribed to a problem
+      description: Returns true if user is subscribed to specified problem
+      parameters:
+        - name: email
+          in: query
+          required: true
+          description: user email
+          schema:
+            type: string
+        - name: odaProblem
+          in: query
+          required: true
+          description: equals odaProblem.id which is returned from the get method
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Success
+  /user/UserInfo:
+    get:
+      tags:
+        - User
+      summary: Returns information about user
+      description: Returns information about user
+      parameters:
+        - name: email
+          in: query
+          required: true
+          description: user email
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Success
+  /user/Subscribe:
+    get:
+      tags:
+        - User
+      summary: Subscribe to oda problem
+      description: Subscribes to a specific oda problem
+      parameters:
+        - name: email
+          in: query
+          required: true
+          description: user email
+          schema:
+            type: string
+        - name: odaProblem
+          in: query
+          required: true
+          description: equals odaProblem.id which is returned from the get method
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Success
+  /user/Unsubscribe:
+    get:
+      tags:
+        - User
+      summary: Unsubscribe from oda problem
+      description: Unsubscribes from specific oda problem
+      parameters:
+        - name: email
+          in: query
+          required: true
+          description: user email
+          schema:
+            type: string
+        - name: odaProblem
+          in: query
+          required: true
+          description: equals odaProblem.id which is returned from the get method
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Success
+  /ontology/GetCategories:
+    get:
+      tags:
+        - ontology
+      summary: Get all existing categories
+      description: Returns three lists of categories for specific problem, accessible data and data product
+      responses:
+        '200':
+          description: Success
+  /ontology/GetVendors:
+    get:
+      tags:
+        - ontology
+      summary: Get all existing vendors
+      description: returns list of all current vendors in database
+      responses:
+        '200':
+          description: Success
+  /Nesta:
+    get:
+      tags:
+        - Nesta
+      summary: Return Nesta guide pdf
+      responses:
+        '200':
+          description: Success
+

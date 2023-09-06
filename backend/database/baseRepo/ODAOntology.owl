@@ -1,0 +1,842 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:absolute:ODA2.0#"
+     xml:base="urn:absolute:ODA2.0"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:ODA2="urn:absolute:ODA2.0#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:absolute:ODA2.0">
+        <owl:versionIRI rdf:resource="urn:absolute:1"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- urn:absolute:ODA2.0#createdBy -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:ODA2.0#createdBy">
+        <owl:inverseOf rdf:resource="urn:absolute:ODA2.0#creatorOf"/>
+        <rdfs:domain rdf:resource="urn:absolute:ODA2.0#ODAProblem"/>
+        <rdfs:range rdf:resource="urn:absolute:ODA2.0#User"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:ODA2.0#creatorOf -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:ODA2.0#creatorOf">
+        <rdfs:domain rdf:resource="urn:absolute:ODA2.0#User"/>
+        <rdfs:range rdf:resource="urn:absolute:ODA2.0#ODAProblem"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:ODA2.0#hasAccesibleData -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:ODA2.0#hasAccesibleData">
+        <owl:inverseOf rdf:resource="urn:absolute:ODA2.0#isAccesibleDataOf"/>
+        <rdfs:domain rdf:resource="urn:absolute:ODA2.0#ODAProblem"/>
+        <rdfs:range rdf:resource="urn:absolute:ODA2.0#AccesibleData"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:ODA2.0#hasClearDataProduct -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:ODA2.0#hasClearDataProduct">
+        <owl:inverseOf rdf:resource="urn:absolute:ODA2.0#isDataProductOf"/>
+        <rdfs:domain rdf:resource="urn:absolute:ODA2.0#ODAProblem"/>
+        <rdfs:range rdf:resource="urn:absolute:ODA2.0#ClearDataProduct"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:ODA2.0#hasDefinedAction -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:ODA2.0#hasDefinedAction">
+        <owl:inverseOf rdf:resource="urn:absolute:ODA2.0#isDefineActionOf"/>
+        <rdfs:domain rdf:resource="urn:absolute:ODA2.0#ODAProblem"/>
+        <rdfs:range rdf:resource="urn:absolute:ODA2.0#DefinedAction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:ODA2.0#hasSector -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:ODA2.0#hasSector">
+        <owl:inverseOf rdf:resource="urn:absolute:ODA2.0#isSectorOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="urn:absolute:ODA2.0#ODAProblem"/>
+        <rdfs:range rdf:resource="urn:absolute:ODA2.0#Sector"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:ODA2.0#hasSpecificProblem -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:ODA2.0#hasSpecificProblem">
+        <owl:inverseOf rdf:resource="urn:absolute:ODA2.0#isSpecificProblemOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="urn:absolute:ODA2.0#ODAProblem"/>
+        <rdfs:range rdf:resource="urn:absolute:ODA2.0#SpecificProblem"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:ODA2.0#hasSubscriber -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:ODA2.0#hasSubscriber">
+        <owl:inverseOf rdf:resource="urn:absolute:ODA2.0#subscribedTo"/>
+        <rdfs:domain rdf:resource="urn:absolute:ODA2.0#ODAProblem"/>
+        <rdfs:range rdf:resource="urn:absolute:ODA2.0#User"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:ODA2.0#hasVendor -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:ODA2.0#hasVendor">
+        <owl:inverseOf rdf:resource="urn:absolute:ODA2.0#isVendorOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="urn:absolute:ODA2.0#ODAProblem"/>
+        <rdfs:range rdf:resource="urn:absolute:ODA2.0#Vendor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:ODA2.0#isAccesibleDataOf -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:ODA2.0#isAccesibleDataOf">
+        <rdfs:domain rdf:resource="urn:absolute:ODA2.0#AccesibleData"/>
+        <rdfs:range rdf:resource="urn:absolute:ODA2.0#ODAProblem"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:ODA2.0#isDataProductOf -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:ODA2.0#isDataProductOf">
+        <rdfs:domain rdf:resource="urn:absolute:ODA2.0#ClearDataProduct"/>
+        <rdfs:range rdf:resource="urn:absolute:ODA2.0#ODAProblem"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:ODA2.0#isDefineActionOf -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:ODA2.0#isDefineActionOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="urn:absolute:ODA2.0#DefinedAction"/>
+        <rdfs:range rdf:resource="urn:absolute:ODA2.0#ODAProblem"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:ODA2.0#isSectorOf -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:ODA2.0#isSectorOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="urn:absolute:ODA2.0#Sector"/>
+        <rdfs:range rdf:resource="urn:absolute:ODA2.0#ODAProblem"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:ODA2.0#isSpecificProblemOf -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:ODA2.0#isSpecificProblemOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="urn:absolute:ODA2.0#SpecificProblem"/>
+        <rdfs:range rdf:resource="urn:absolute:ODA2.0#ODAProblem"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:ODA2.0#isVendorOf -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:ODA2.0#isVendorOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="urn:absolute:ODA2.0#Vendor"/>
+        <rdfs:range rdf:resource="urn:absolute:ODA2.0#ODAProblem"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:ODA2.0#relatedAD -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:ODA2.0#relatedAD">
+        <rdfs:domain rdf:resource="urn:absolute:ODA2.0#ODAProblem"/>
+        <rdfs:range rdf:resource="urn:absolute:ODA2.0#AccesibleData"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="urn:absolute:ODA2.0#hasAccesibleData"/>
+            <rdf:Description rdf:about="urn:absolute:ODA2.0#sameCategoryAs"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:ODA2.0#relatedAD_ODAProblem -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:ODA2.0#relatedAD_ODAProblem">
+        <rdfs:domain rdf:resource="urn:absolute:ODA2.0#ODAProblem"/>
+        <rdfs:range rdf:resource="urn:absolute:ODA2.0#ODAProblem"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="urn:absolute:ODA2.0#hasAccesibleData"/>
+            <rdf:Description rdf:about="urn:absolute:ODA2.0#isAccesibleDataOf"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="urn:absolute:ODA2.0#hasAccesibleData"/>
+            <rdf:Description rdf:about="urn:absolute:ODA2.0#sameCategoryAs"/>
+            <rdf:Description rdf:about="urn:absolute:ODA2.0#isAccesibleDataOf"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:ODA2.0#relatedDP -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:ODA2.0#relatedDP">
+        <rdfs:domain rdf:resource="urn:absolute:ODA2.0#ODAProblem"/>
+        <rdfs:range rdf:resource="urn:absolute:ODA2.0#ClearDataProduct"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="urn:absolute:ODA2.0#hasClearDataProduct"/>
+            <rdf:Description rdf:about="urn:absolute:ODA2.0#sameCategoryAs"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:ODA2.0#relatedDP_ODAProblem -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:ODA2.0#relatedDP_ODAProblem">
+        <rdfs:domain rdf:resource="urn:absolute:ODA2.0#ODAProblem"/>
+        <rdfs:range rdf:resource="urn:absolute:ODA2.0#ODAProblem"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="urn:absolute:ODA2.0#hasClearDataProduct"/>
+            <rdf:Description rdf:about="urn:absolute:ODA2.0#isDataProductOf"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="urn:absolute:ODA2.0#hasClearDataProduct"/>
+            <rdf:Description rdf:about="urn:absolute:ODA2.0#sameCategoryAs"/>
+            <rdf:Description rdf:about="urn:absolute:ODA2.0#isDataProductOf"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:ODA2.0#relatedSP -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:ODA2.0#relatedSP">
+        <rdfs:domain rdf:resource="urn:absolute:ODA2.0#ODAProblem"/>
+        <rdfs:range rdf:resource="urn:absolute:ODA2.0#SpecificProblem"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="urn:absolute:ODA2.0#hasSpecificProblem"/>
+            <rdf:Description rdf:about="urn:absolute:ODA2.0#sameCategoryAs"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:ODA2.0#relatedSP_ODAProblem -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:ODA2.0#relatedSP_ODAProblem">
+        <rdfs:domain rdf:resource="urn:absolute:ODA2.0#ODAProblem"/>
+        <rdfs:range rdf:resource="urn:absolute:ODA2.0#ODAProblem"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="urn:absolute:ODA2.0#hasSpecificProblem"/>
+            <rdf:Description rdf:about="urn:absolute:ODA2.0#isSpecificProblemOf"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="urn:absolute:ODA2.0#hasSpecificProblem"/>
+            <rdf:Description rdf:about="urn:absolute:ODA2.0#sameCategoryAs"/>
+            <rdf:Description rdf:about="urn:absolute:ODA2.0#isSpecificProblemOf"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:ODA2.0#relatedVendor_ODAProblem -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:ODA2.0#relatedVendor_ODAProblem">
+        <rdfs:domain rdf:resource="urn:absolute:ODA2.0#ODAProblem"/>
+        <rdfs:range rdf:resource="urn:absolute:ODA2.0#ODAProblem"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="urn:absolute:ODA2.0#hasVendor"/>
+            <rdf:Description rdf:about="urn:absolute:ODA2.0#isVendorOf"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:ODA2.0#sameCategoryAs -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:ODA2.0#sameCategoryAs">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:ODA2.0#subscribedTo -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:ODA2.0#subscribedTo">
+        <rdfs:domain rdf:resource="urn:absolute:ODA2.0#User"/>
+        <rdfs:range rdf:resource="urn:absolute:ODA2.0#ODAProblem"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- urn:absolute:ODA2.0#ODATitle -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute:ODA2.0#ODATitle">
+        <rdfs:domain rdf:resource="urn:absolute:ODA2.0#ODAProblem"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute:ODA2.0#ODAprogress -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute:ODA2.0#ODAprogress">
+        <rdfs:domain rdf:resource="urn:absolute:ODA2.0#ODAProblem"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute:ODA2.0#accesibleDataDescription -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute:ODA2.0#accesibleDataDescription">
+        <rdfs:domain rdf:resource="urn:absolute:ODA2.0#AccesibleData"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute:ODA2.0#approved -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute:ODA2.0#approved">
+        <rdfs:domain rdf:resource="urn:absolute:ODA2.0#ODAProblem"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute:ODA2.0#dataProductDescription -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute:ODA2.0#dataProductDescription">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute:ODA2.0#definedActionDescription -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute:ODA2.0#definedActionDescription">
+        <rdfs:domain rdf:resource="urn:absolute:ODA2.0#DefinedAction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute:ODA2.0#isAdmin -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute:ODA2.0#isAdmin">
+        <rdfs:domain rdf:resource="urn:absolute:ODA2.0#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute:ODA2.0#specificProblemDescription -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute:ODA2.0#specificProblemDescription">
+        <rdfs:domain rdf:resource="urn:absolute:ODA2.0#SpecificProblem"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute:ODA2.0#userAffiliation -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute:ODA2.0#userAffiliation">
+        <rdfs:domain rdf:resource="urn:absolute:ODA2.0#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute:ODA2.0#userMail -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute:ODA2.0#userMail">
+        <rdfs:domain rdf:resource="urn:absolute:ODA2.0#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute:ODA2.0#userPhoneNumber -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute:ODA2.0#userPhoneNumber">
+        <rdfs:domain rdf:resource="urn:absolute:ODA2.0#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- urn:absolute:ODA2.0#AccesibleData -->
+
+    <owl:Class rdf:about="urn:absolute:ODA2.0#AccesibleData">
+        <rdfs:comment>ved å bruke disse datasettene (fyll inn hvilke datasett du planlegger å bruke)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:ODA2.0#AvailableData -->
+
+    <owl:Class rdf:about="urn:absolute:ODA2.0#AvailableData">
+        <rdfs:subClassOf rdf:resource="urn:absolute:ODA2.0#SpecificProblem"/>
+        <rdfs:comment>Repeated decisions made without access to all relevant information</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:ODA2.0#CitizenData -->
+
+    <owl:Class rdf:about="urn:absolute:ODA2.0#CitizenData">
+        <rdfs:subClassOf rdf:resource="urn:absolute:ODA2.0#AccesibleData"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:ODA2.0#ClearDataProduct -->
+
+    <owl:Class rdf:about="urn:absolute:ODA2.0#ClearDataProduct">
+        <rdfs:comment>Clear Data Product - Hvis vi kunne se/ hvis vi visste (fyll inn &quot;dataproduktet, hvordan du ønsker at faktagrunnlaget skal vises frem, f.eks. kart eller dashboard)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:ODA2.0#DefinedAction -->
+
+    <owl:Class rdf:about="urn:absolute:ODA2.0#DefinedAction">
+        <rdfs:comment>Defined Action - ville vi (fyll inn den nye aktiviteten du 
+ønsker å implementere)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:ODA2.0#IdentifyingTarget -->
+
+    <owl:Class rdf:about="urn:absolute:ODA2.0#IdentifyingTarget">
+        <rdfs:subClassOf rdf:resource="urn:absolute:ODA2.0#SpecificProblem"/>
+        <rdfs:comment>Targets are difficult to identify within a broader population</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:ODA2.0#ODAProblem -->
+
+    <owl:Class rdf:about="urn:absolute:ODA2.0#ODAProblem">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="urn:absolute:ODA2.0#ODAProblem"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="urn:absolute:ODA2.0#hasSpecificProblem"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="urn:absolute:ODA2.0#SpecificProblem"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:comment>A problem in one/several municipalities that is defined using the ODA method</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:ODA2.0#OpenData -->
+
+    <owl:Class rdf:about="urn:absolute:ODA2.0#OpenData">
+        <rdfs:subClassOf rdf:resource="urn:absolute:ODA2.0#AccesibleData"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:ODA2.0#OtherData -->
+
+    <owl:Class rdf:about="urn:absolute:ODA2.0#OtherData">
+        <rdfs:subClassOf rdf:resource="urn:absolute:ODA2.0#AccesibleData"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:ODA2.0#OtherSpecificProblem -->
+
+    <owl:Class rdf:about="urn:absolute:ODA2.0#OtherSpecificProblem">
+        <rdfs:subClassOf rdf:resource="urn:absolute:ODA2.0#SpecificProblem"/>
+        <rdfs:comment>Specified problems which do not fall into any of the other categories</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:ODA2.0#OutdatedData -->
+
+    <owl:Class rdf:about="urn:absolute:ODA2.0#OutdatedData">
+        <rdfs:subClassOf rdf:resource="urn:absolute:ODA2.0#SpecificProblem"/>
+        <rdfs:comment>Assets are scheduled or deployed without input of latest service data</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:ODA2.0#Prioritization -->
+
+    <owl:Class rdf:about="urn:absolute:ODA2.0#Prioritization">
+        <rdfs:subClassOf rdf:resource="urn:absolute:ODA2.0#SpecificProblem"/>
+        <rdfs:comment>Services do not categorise high-priority cases early</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:ODA2.0#PublicSectorData -->
+
+    <owl:Class rdf:about="urn:absolute:ODA2.0#PublicSectorData">
+        <rdfs:subClassOf rdf:resource="urn:absolute:ODA2.0#AccesibleData"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:ODA2.0#ReactiveServices -->
+
+    <owl:Class rdf:about="urn:absolute:ODA2.0#ReactiveServices">
+        <rdfs:subClassOf rdf:resource="urn:absolute:ODA2.0#SpecificProblem"/>
+        <rdfs:comment>Resources are overly focused on reactive services</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:ODA2.0#Resource -->
+
+    <owl:Class rdf:about="urn:absolute:ODA2.0#Resource">
+        <rdfs:subClassOf rdf:resource="urn:absolute:ODA2.0#ClearDataProduct"/>
+        <rdfs:comment>Lagring/Visualisering av dataen, f.eks. i form av en tabell, graf, kart, osv...</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:ODA2.0#Sector -->
+
+    <owl:Class rdf:about="urn:absolute:ODA2.0#Sector"/>
+    
+
+
+    <!-- urn:absolute:ODA2.0#SpecificProblem -->
+
+    <owl:Class rdf:about="urn:absolute:ODA2.0#SpecificProblem">
+        <rdfs:comment>Specific Problem - Vårt spesifikke problem er at: (fyll inn spesifikk problemformulering)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:ODA2.0#Tool -->
+
+    <owl:Class rdf:about="urn:absolute:ODA2.0#Tool">
+        <rdfs:subClassOf rdf:resource="urn:absolute:ODA2.0#ClearDataProduct"/>
+        <rdfs:comment>Et mer omstendelig dataprodukt, som innebærer mer enn kun visualisering av data.
+f.eks.
+&quot;Hvis vi kunne se og legge til rette for god og sikker innbyggerdialog med for eksempel helsestasjon og skolehelsetjenesten.&quot;
+&quot;Hvis vi kunne se og legge til rette for god og sikker innbyggerdialog med for eksempel helsestasjon og skolehelsetjenesten&quot;
+&quot;Hvis vi kunne prediktere ressursbehovet innenfor ulike området, så ville vi vært bedre istand til å planlegge&quot;</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:ODA2.0#User -->
+
+    <owl:Class rdf:about="urn:absolute:ODA2.0#User">
+        <rdfs:comment>En bruker
+har dataproperties:
+userAffiliation
+userMail
+userPhoneNumber
+isAdmin</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:ODA2.0#Vendor -->
+
+    <owl:Class rdf:about="urn:absolute:ODA2.0#Vendor">
+        <rdfs:comment>Leverandør av dataproduktet</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:ODA2.0#Business/ThirdSectorData -->
+
+    <owl:Class rdf:about="urn:absolute:ODA2.0#Business/ThirdSectorData">
+        <rdfs:subClassOf rdf:resource="urn:absolute:ODA2.0#AccesibleData"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- urn:absolute:ODA2.0#AI -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:ODA2.0#AI">
+        <rdf:type rdf:resource="urn:absolute:ODA2.0#Tool"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:ODA2.0#BlueGarden -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:ODA2.0#BlueGarden">
+        <rdf:type rdf:resource="urn:absolute:ODA2.0#Vendor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:ODA2.0#CD1 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:ODA2.0#CD1">
+        <rdf:type rdf:resource="urn:absolute:ODA2.0#Business/ThirdSectorData"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:ODA2.0#Faktura -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:ODA2.0#Faktura">
+        <rdf:type rdf:resource="urn:absolute:ODA2.0#Sector"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:ODA2.0#Forvaltning -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:ODA2.0#Forvaltning">
+        <rdf:type rdf:resource="urn:absolute:ODA2.0#Sector"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:ODA2.0#Graph -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:ODA2.0#Graph">
+        <rdf:type rdf:resource="urn:absolute:ODA2.0#Resource"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:ODA2.0#ID1 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:ODA2.0#ID1"/>
+    
+
+
+    <!-- urn:absolute:ODA2.0#IT1 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:ODA2.0#IT1">
+        <rdf:type rdf:resource="urn:absolute:ODA2.0#IdentifyingTarget"/>
+        <sameCategoryAs rdf:resource="urn:absolute:ODA2.0#IT2"/>
+        <sameCategoryAs rdf:resource="urn:absolute:ODA2.0#IT3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:ODA2.0#IT2 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:ODA2.0#IT2">
+        <rdf:type rdf:resource="urn:absolute:ODA2.0#IdentifyingTarget"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:ODA2.0#IT3 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:ODA2.0#IT3">
+        <rdf:type rdf:resource="urn:absolute:ODA2.0#IdentifyingTarget"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:ODA2.0#Jespbarf -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:ODA2.0#Jespbarf">
+        <rdf:type rdf:resource="urn:absolute:ODA2.0#User"/>
+        <creatorOf rdf:resource="urn:absolute:ODA2.0#P1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:ODA2.0#Lisens -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:ODA2.0#Lisens"/>
+    
+
+
+    <!-- urn:absolute:ODA2.0#OD1 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:ODA2.0#OD1">
+        <rdf:type rdf:resource="urn:absolute:ODA2.0#OpenData"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:ODA2.0#OSP -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:ODA2.0#OSP">
+        <rdf:type rdf:resource="urn:absolute:ODA2.0#OtherSpecificProblem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:ODA2.0#P1 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:ODA2.0#P1">
+        <rdf:type rdf:resource="urn:absolute:ODA2.0#ODAProblem"/>
+        <hasAccesibleData rdf:resource="urn:absolute:ODA2.0#OD1"/>
+        <hasClearDataProduct rdf:resource="urn:absolute:ODA2.0#Graph"/>
+        <hasSpecificProblem rdf:resource="urn:absolute:ODA2.0#IT1"/>
+        <hasVendor rdf:resource="urn:absolute:ODA2.0#Visma"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:ODA2.0#P2 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:ODA2.0#P2">
+        <rdf:type rdf:resource="urn:absolute:ODA2.0#ODAProblem"/>
+        <hasSpecificProblem rdf:resource="urn:absolute:ODA2.0#IT2"/>
+        <hasVendor rdf:resource="urn:absolute:ODA2.0#Visma"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:ODA2.0#P3 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:ODA2.0#P3">
+        <rdf:type rdf:resource="urn:absolute:ODA2.0#ODAProblem"/>
+        <hasAccesibleData rdf:resource="urn:absolute:ODA2.0#OD1"/>
+        <hasSpecificProblem rdf:resource="urn:absolute:ODA2.0#OSP"/>
+        <hasVendor rdf:resource="urn:absolute:ODA2.0#Vigilo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:ODA2.0#P4 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:ODA2.0#P4">
+        <rdf:type rdf:resource="urn:absolute:ODA2.0#ODAProblem"/>
+        <hasClearDataProduct rdf:resource="urn:absolute:ODA2.0#Graph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:ODA2.0#Skole -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:ODA2.0#Skole">
+        <rdf:type rdf:resource="urn:absolute:ODA2.0#Sector"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:ODA2.0#SylviuPlath -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:ODA2.0#SylviuPlath">
+        <rdf:type rdf:resource="urn:absolute:ODA2.0#User"/>
+        <creatorOf rdf:resource="urn:absolute:ODA2.0#P3"/>
+        <subscribedTo rdf:resource="urn:absolute:ODA2.0#P1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:ODA2.0#TrulsNylander -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:ODA2.0#TrulsNylander">
+        <rdf:type rdf:resource="urn:absolute:ODA2.0#User"/>
+        <subscribedTo rdf:resource="urn:absolute:ODA2.0#P1"/>
+        <subscribedTo rdf:resource="urn:absolute:ODA2.0#P3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:ODA2.0#Vigilo -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:ODA2.0#Vigilo">
+        <rdf:type rdf:resource="urn:absolute:ODA2.0#Vendor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:ODA2.0#Visma -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:ODA2.0#Visma">
+        <rdf:type rdf:resource="urn:absolute:ODA2.0#Vendor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:ODA2.0#Økonomi -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:ODA2.0#Økonomi">
+        <rdf:type rdf:resource="urn:absolute:ODA2.0#Sector"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
