@@ -9,19 +9,19 @@ The GUI is user-friendly. An administrator user has additional features compared
 
 **Frontpage and New Problem page**
 
-<img src="./graph-nesta/frontend/public/userfrontpage.png" width="400" height="auto" alt="User frontpage">
+<img src="./frontend/public/userfrontpage.png" width="400" height="auto" alt="User frontpage">
 
-<img src="./graph-nesta/frontend/public/newproblem.png" width="400" height="auto" alt="New problem page">
+<img src="./frontend/public/newproblem.png" width="400" height="auto" alt="New problem page">
 
 **Search page and Inspect Problem page**
 
-<img src="./graph-nesta/frontend/public/search.png" width="400" height="auto" alt="Search page">
+<img src="./frontend/public/search.png" width="400" height="auto" alt="Search page">
 
-<img src="./graph-nesta/frontend/public/inspect.png" width="350" height="auto" alt="Inspect problem page">
+<img src="./frontend/public/inspect.png" width="350" height="auto" alt="Inspect problem page">
 
 
 **Admin frontpage** <br>
-<img src="./graph-nesta/frontend/public/adminfrontpage.png" width="400" height="auto" alt="Admin frontpage with admin panel and two additional buttons: Godkjenn problem and Ny bruker">
+<img src="./frontend/public/adminfrontpage.png" width="400" height="auto" alt="Admin frontpage with admin panel and two additional buttons: Godkjenn problem and Ny bruker">
 
 ## Installation and Running Graph-Nesta
 ### Backend
@@ -65,7 +65,7 @@ npm test
 a (to run all tests)
 ```
 
-<img src="./graph-nesta/frontend/public/unitSnapshotTest.png" width="350" height="auto" alt="Unit & Snapshot Testing Results.">
+<img src="./frontend/public/unitSnapshotTest.png" width="350" height="auto" alt="Unit & Snapshot Testing Results.">
 
 ### End-To-End Testing
 Terminal 1
@@ -87,10 +87,10 @@ npm run cypress:open
 - Choose E2E-testing and then browser.
 - Choose the test file to run.
 
-<img src="./graph-nesta/frontend/public/AdminStaging.png" width="350" height="auto" alt="AdminStaging E2E Results.">\
-<img src="./graph-nesta/frontend/public/Interaction.png" width="350" height="auto" alt="Interaction E2E Results.">\
-<img src="./graph-nesta/frontend/public/Login.png" width="350" height="auto" alt="Login E2E Results.">\
-<img src="./graph-nesta/frontend/public/Problems.png" width="350" height="auto" alt="Problems E2E Results.">\
+<img src="./frontend/public/AdminStaging.png" width="350" height="auto" alt="AdminStaging E2E Results.">\
+<img src="./frontend/public/Interaction.png" width="350" height="auto" alt="Interaction E2E Results.">\
+<img src="./frontend/public/Login.png" width="350" height="auto" alt="Login E2E Results.">\
+<img src="./frontend/public/Problems.png" width="350" height="auto" alt="Problems E2E Results.">\
 
 ## Authors and acknowledgment
 Students that have contributed to creating Graph-Nesta:
